@@ -4,6 +4,8 @@ An interactive, production-ready bilingual (**English & తెలుగు**) we
 
 Designed with a **Deep Space Dark Mode** and **Glassmorphism** aesthetic, complete with live constellation particle lines, audio narration, and real-time computation playgrounds.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiliconbrainsai%2FDeep-Learning-Explorer)
+
 ---
 
 ## ✨ Key Features & Architecture
