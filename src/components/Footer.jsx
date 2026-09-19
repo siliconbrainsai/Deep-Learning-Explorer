@@ -16,7 +16,7 @@ export default function Footer({ lang = 'en', t }) {
           </span>
           <span className="text-slate-600">•</span>
           <span className="text-xs font-semibold text-slate-400">
-            AI Odyssey: Deep Learning Explorer
+            Defense & Academic Labs • AI Odyssey: ML & DL Explorer
           </span>
         </div>
 

@@ -1,22 +1,61 @@
 export const translations = {
   en: {
     langCode: 'en-US',
-    title: "AI Odyssey: Deep Learning Explorer",
-    subtitle: "Give your computer a Super Brain! 🧠",
+    defenseHeader: "SILICONBRAINSAI // DEFENSE & ACADEMIC LABS",
+    defenseTitle: "AI ODYSSEY: MACHINE LEARNING & DEEP LEARNING EXPLORER",
+    defenseSubtitle: "AI-Powered Interactive Learning & Production Studio by Siliconbrainsai • Master ML & DL through visual examples, bilingual support, and production engineering workflows.",
+    title: "AI Odyssey: ML & DL Explorer",
+    subtitle: "AI-Powered Interactive Learning & Production Studio 🧠",
     toggleText: "తెలుగు",
-    readAloud: "Listen",
+    readAloud: "Listen (TTS)",
     stopReading: "Stop Audio",
-    portalTag: "Interactive Portal",
-    audienceToggle: {
-      label: "Perspective:",
-      student: "Student Mode (Intuitive Visuals)",
-      engineer: "Engineer Mode (Math & Arch)"
+    portalTag: "Tactical Studio",
+    clearanceBadge: "LEVEL-4 RESTRICTED",
+    statusBeacon: "SYSTEM ONLINE",
+    telemetryTitle: "LIVE ML MODEL TRAINING MONITOR",
+    telemetryRun: "Active Run #104 • ai-odyssey-student-classifier",
+    telemetry: {
+      optimizer: "Adam (η = 0.001)",
+      lossCurve: "MSE ↓ 0.1894 (-14.2% descent)",
+      valAccuracy: "Val Accuracy: 91.2% (Top-1 Score)",
+      batchLatency: "Batch Latency: 1.2ms (P99: 1.4ms)",
+      throughput: "1.28k Req/sec served"
+    },
+    audienceTracks: {
+      label: "TARGET AUDIENCE TRACK",
+      fastapi: "FastAPI + Math Rigor",
+      student: "Student Mode",
+      engineer: "Engineer Mode"
     },
     steps: [
-      { id: 1, title: "1. Basics", subtitle: "Definition & How it Works" },
-      { id: 2, title: "2. Intermediate", subtitle: "Neural Networks, Activations & Libraries" },
-      { id: 3, title: "3. Advanced", subtitle: "CNN, RNN & GenAI Revolution" }
+      { id: 1, title: "1. Foundations", subtitle: "Rule-Based vs ML • 3 Pillars • Splitting Simulator" },
+      { id: 2, title: "2. Algorithm Lab", subtitle: "Linear/Logistic • K-Means • Random Forest • Neural Nets" },
+      { id: 3, title: "3. Python & FastAPI", subtitle: "MLflow Tracking • Docker • Live Inference Testbench" },
+      { id: 4, title: "4. Knowledge Quiz", subtitle: "Bilingual interactive assessment & celebrations" },
+      { id: 5, title: "5. ML Glossary", subtitle: "Student analogies vs engineering mathematical definitions" }
     ],
+    quickAccessTitle: "QUICK ACCESS TOPICS // INTERACTIVE DIRECT JUMP",
+    quickAccess: [
+      { id: "reg", label: "Linear Regression Playground & Analysis", targetModule: 2 },
+      { id: "fastapi", label: "FastAPI ASGI Microservice Integration", targetModule: 3 },
+      { id: "kmeans", label: "K-Means & Elbow Method Clustering", targetModule: 2 },
+      { id: "rf", label: "Random Forest & Deep Learning Ensembles", targetModule: 2 },
+      { id: "quiz", label: "Knowledge Assessment & Interactive Quizzes", targetModule: 4 },
+      { id: "glossary", label: "ML Glossary & Concept Intel Hub", targetModule: 5 }
+    ],
+    security: {
+      protocol: "SECURE ACCESS PROTOCOL // LEVEL-4",
+      status: "AUTHENTICATOR ACTIVE",
+      authDesc: "Multi-factor cryptographic authentication for Defense & Geospatial Research Labs.",
+      githubSSO: "GitHub SSO Integration",
+      googleSSO: "Google SSO Integration",
+      operatorIdLabel: "Operator ID / Corporate Email",
+      tokenLabel: "Access Key / Cryptographic Token",
+      guestBtn: "Instant Guest Access (Level-4 Sandbox)",
+      autofillBtn: "Operational Analyst Autofill Sandbox",
+      loginBtn: "Authenticate Session",
+      clearanceMsg: "Operator Clearance Granted: Level-4 Top Secret / Academic Lab Access."
+    },
 
     // --- MODULE 01 ---
     step1Header: "Deep Learning Fundamentals",
@@ -384,22 +423,61 @@ export const translations = {
 
   te: {
     langCode: 'te-IN',
-    title: "ఏఐ ఒడిస్సీ: డీప్ లెర్నింగ్ ఎక్స్‌ప్లోరర్",
+    defenseHeader: "సిలికాన్‌బ్రెయిన్స్‌ఏఐ // డిఫెన్స్ & అకడమిక్ ల్యాబ్స్",
+    defenseTitle: "ఏఐ ఒడిస్సీ: మెషిన్ లెర్నింగ్ & డీప్ లెర్నింగ్ ఎక్స్‌ప్లోరర్",
+    defenseSubtitle: "సిలికాన్‌బ్రెయిన్స్‌ఏఐ ఏఐ-పవర్డ్ లెర్నింగ్ & ప్రొడక్షన్ స్టూడియో • దృశ్య ఉదాహరణలు, ద్విభాషా సపోర్ట్, మరియు ప్రొడక్షన్ ఇంజనీరింగ్ వర్క్‌ఫ్లోస్.",
+    title: "ఏఐ ఒడిస్సీ: ML & DL ఎక్స్‌ప్లోరర్",
     subtitle: "మీ కంప్యూటర్‌కు ఒక 'సూపర్ బ్రెయిన్' ఇవ్వండి! 🧠",
     toggleText: "English",
-    readAloud: "వినండి (ఆడియో)",
+    readAloud: "వినండి (TTS)",
     stopReading: "ఆడియో ఆపండి",
-    portalTag: "ఇంటరాక్టివ్ పోర్టల్",
-    audienceToggle: {
-      label: "దృక్కోణం:",
-      student: "విద్యార్థి మోడ్ (దృశ్య అవగాహన)",
-      engineer: "ఇంజనీర్ మోడ్ (గణితం & ఆర్కిటెక్చర్)"
+    portalTag: "టాక్టికల్ స్టూడియో",
+    clearanceBadge: "లెవల్-4 రెస్ట్రిక్టెడ్",
+    statusBeacon: "సిస్టమ్ ఆన్‌లైన్",
+    telemetryTitle: "లైవ్ ML మోడల్ ట్రైనింగ్ మానిటర్",
+    telemetryRun: "యాక్టివ్ రన్ #104 • ai-odyssey-student-classifier",
+    telemetry: {
+      optimizer: "Adam (η = 0.001)",
+      lossCurve: "MSE ↓ 0.1894 (-14.2% క్షీణత)",
+      valAccuracy: "Val ఖచ్చితత్వం: 91.2% (Top-1 స్కోర్)",
+      batchLatency: "బ్యాచ్ లేటెన్సీ: 1.2ms (P99: 1.4ms)",
+      throughput: "1.28k Req/sec సర్వ్ అవుతోంది"
+    },
+    audienceTracks: {
+      label: "లక్ష్య ప్రేక్షకుల ట్రాక్",
+      fastapi: "ఫాస్ట్‌ఏపీఐ + గణిత సూత్రాలు",
+      student: "విద్యార్థి మోడ్",
+      engineer: "ఇంజనీర్ మోడ్"
     },
     steps: [
-      { id: 1, title: "1. బేసిక్స్", subtitle: "నిర్వచనం & పనిచేసే విధానం" },
-      { id: 2, title: "2. ఇంటర్మీడియట్", subtitle: "న్యూరల్ నెట్‌వర్క్స్, యాక్టివేషన్స్ & లైబ్రరీలు" },
-      { id: 3, title: "3. అడ్వాన్స్‌డ్", subtitle: "CNN, RNN & జెనరేటివ్ AI విప్లవం" }
+      { id: 1, title: "1. ప్రాథమిక భావనలు", subtitle: "రూల్-బేస్డ్ vs ML • 3 స్తంభాలు • స్ప్లిట్ సిమ్యులేటర్" },
+      { id: 2, title: "2. అల్గారిథమ్ ల్యాబ్", subtitle: "లీనియర్/లాజిస్టిక్ • K-మీన్స్ • రాండమ్ ఫారెస్ట్ • న్యూరల్ నెట్స్" },
+      { id: 3, title: "3. పైథాన్ & ఫాస్ట్‌ఏపీఐ", subtitle: "MLflow ట్రాకింగ్ • డాకర్ • లైవ్ ఇన్ఫరెన్స్ టెస్ట్‌బెంచ్" },
+      { id: 4, title: "4. జ్ఞాన పరీక్ష క్విజ్", subtitle: "ద్విభాషా ఇంటరాక్టివ్ అసెస్‌మెంట్ & కాన్ఫెట్టి సంబరం" },
+      { id: 5, title: "5. ML నిఘంటువు", subtitle: "విద్యార్థి పోలికలు vs ఇంజనీరింగ్ గణిత నిర్వచనాలు" }
     ],
+    quickAccessTitle: "త్వరిత నావిగేషన్ అంశాలు // డైరెక్ట్ జంప్",
+    quickAccess: [
+      { id: "reg", label: "లీనియర్ రిగ్రెషన్ ప్లేగ్రౌండ్ & విశ్లేషణ", targetModule: 2 },
+      { id: "fastapi", label: "FastAPI ASGI మైక్రోసర్వీస్ అనుసంధానం", targetModule: 3 },
+      { id: "kmeans", label: "K-Means & ఎల్బో మెథడ్ క్లస్టరింగ్", targetModule: 2 },
+      { id: "rf", label: "రాండమ్ ఫారెస్ట్ & డీప్ లెర్నింగ్ ఎంసెంబుల్స్", targetModule: 2 },
+      { id: "quiz", label: "జ్ఞాన పరీక్ష & ఇంటరాక్టివ్ క్విజ్‌లు", targetModule: 4 },
+      { id: "glossary", label: "ML నిఘంటువు & ఇంటెల్ హబ్", targetModule: 5 }
+    ],
+    security: {
+      protocol: "సెక్యూర్ యాక్సెస్ ప్రోటోకాల్ // లెవల్-4",
+      status: "అథెంటికేటర్ యాక్టివ్",
+      authDesc: "డిఫెన్స్ మరియు జియోస్పేషియల్ రీసెర్చ్ ల్యాబ్స్ కోసం మల్టీ-ఫాక్టర్ క్రిప్టోగ్రాఫిక్ లాగిన్.",
+      githubSSO: "GitHub SSO అనుసంధానం",
+      googleSSO: "Google SSO అనుసంధానం",
+      operatorIdLabel: "ఆపరేటర్ ID / కార్పొరేట్ ఈమెయిల్",
+      tokenLabel: "యాక్సెస్ కీ / క్రిప్టోగ్రాఫిక్ టోకెన్",
+      guestBtn: "తక్షణ గెస్ట్ యాక్సెస్ (లెవల్-4 శాండ్‌బాక్స్)",
+      autofillBtn: "ఆపరేషనల్ అనలిస్ట్ ఆటోఫిల్ శాండ్‌బాక్స్",
+      loginBtn: "సెషన్ ప్రామాణీకరించండి",
+      clearanceMsg: "ఆపరేటర్ క్లియరెన్స్ మంజూరు చేయబడింది: లెవల్-4 టాప్ సీక్రెట్ / అకడమిక్ ల్యాబ్ యాక్సెస్."
+    },
 
     // --- MODULE 01 ---
     step1Header: "డీప్ లెర్నింగ్ ప్రాథమిక భావనలు",
